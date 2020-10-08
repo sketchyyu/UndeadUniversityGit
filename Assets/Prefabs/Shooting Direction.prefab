@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8791924195390361069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8791924195390361067}
+  - component: {fileID: 8791924195390361066}
+  - component: {fileID: 2063459041532457890}
+  m_Layer: 0
+  m_Name: Shooting Direction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8791924195390361067
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8791924195390361069}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.74, y: -2.71, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8791924195390361066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8791924195390361069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23aea8b4d92aa11408edb123ffdec563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PT: {fileID: 0}
+--- !u!114 &2063459041532457890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8791924195390361069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1803891519583c742b8cb893311f90b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  capsuleTransform: {fileID: 0}
+  shootingDirection: {fileID: 8791924195390361067}
+  shotOrigin: {x: 0, y: 0}
+  enemyHealth: {fileID: 0}
+  bossHealth: {fileID: 0}
+  ammoCounterScript: {fileID: 0}
+  hitPointParticle: {fileID: 2099646572536834986, guid: 4f80a72639915c34ebb27bacb625636d, type: 3}
+  antiBacGrenade: {fileID: 4910516739635614477, guid: 938bd5eae29c9d940863d3e3bed5d8cc, type: 3}
+  lunchLassSprite: {fileID: 0}
